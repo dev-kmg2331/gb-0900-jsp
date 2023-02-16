@@ -1,0 +1,320 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: -.4px;
+}
+
+h1,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    border: none;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+div.main {
+    padding: 32px 0;
+    margin: 0 7px;
+}
+
+div.join-main {
+    width: 360px;
+    margin: 0 auto;
+    padding: 60px 0 20px;
+}
+
+div.join-main h1:nth-child(1) {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.sns {
+    margin: 30px 0;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ededed;
+}
+
+div.sns div:nth-child(1) {
+    font-size: 10px;
+    font-family: OhouseSans;
+    font-weight: 200;
+    text-align: center;
+    margin: 15px 0;
+    color: #757575;
+}
+
+ul.sns-icon-list {
+    display: flex;
+    justify-content: center;
+}
+
+li.sns-icon {
+    margin: 0 10px;
+}
+
+.forms p:nth-child(1) {
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #2F3438;
+    letter-spacing: -0.3px;
+    word-break: keep-all;
+}
+
+.forms .input-condition-text {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #828C94;
+    letter-spacing: -0.3px;
+}
+
+div.email div {
+    display: flex;
+}
+
+div.email p {
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #2F3438;
+    letter-spacing: -0.3px;
+    word-break: keep-all;
+}
+
+.email div span:nth-child(1),
+.email div span:nth-child(3) {
+    flex: 1 1 0px;
+}
+
+.email div span:nth-child(2) {
+    flex: 0 0 20px;
+    text-align: center;
+    line-height: 40px;
+    color: #dbdbdb;
+
+}
+
+.email div span:nth-child(3) {
+    position: relative;
+}
+
+#email-first input {
+    display: block;
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+    padding: 0 15px;
+    line-height: 40px;
+    border-radius: 4px;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    color: #424242;
+}
+
+#email-first input::placeholder {
+    opacity: 0.5;
+    font-family: OhouseSans;
+    font-weight: 400;
+}
+
+#email-last {
+    display: block;
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+    padding: 0 15px;
+    line-height: 40px;
+    border-radius: 4px;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    color: #424242;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+#domain-expand {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+    background: none;
+    border: none;
+    font-size: 0;
+    cursor: default;
+    color: rgba(0, 0, 0, .3);
+}
+
+div.email-varify {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-top: 2px;
+}
+
+button.buttons {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    height: 45px;
+    padding: 0px;
+    background: rgb(247, 248, 250);
+    color: rgb(194, 200, 204);
+    border-color: rgb(218, 220, 224);
+    border-radius: 4px;
+
+}
+
+button.buttons-text {
+    font-family: Noto Sans KR;
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 17px;
+    min-height: 50px;
+}
+
+.forms {
+    margin-bottom: 30px;
+}
+
+input.inputs {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 8px 15px 9px;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    color: #000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Noto Sans CJK KR;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+input.inputs::placeholder {
+    opacity: 0.5;
+    font-family: OhouseSans;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+div.terms-list {
+    padding: 18px;
+    border: 1px solid #EAEDEF;
+}
+
+div.terms-title {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+div.checkbox {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-color: #DADDE0;
+    background-color: #FFFFFF;
+    flex-shrink: 0;
+}
+
+div.checkbox input {
+    display: none;
+}
+
+#selectAll {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    margin-left: 5px;
+}
+
+#selectAll span {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #828C94;
+}
+
+hr.terms-divider {
+    padding: 0;
+    height: 1px;
+    border: none;
+    background-color: #EAEDEF;
+    margin: 18px 0;
+}
+
+span.conditions {
+    font-size: 14px;
+    font-weight: -100;
+    line-height: 20px;
+    letter-spacing: -0.3px;
+    margin-left: 5px;
+}
+
+span.necessary::after {
+    content: "(필수)";
+    display: inline-block;
+    padding-left: 2px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #009FCE;
+}
+
+div.terms-title-margin {
+    margin-top: 20px;
+}
+
+span.unnecessary:after {
+    content: "(선택)";
+    display: inline-block;
+    padding-left: 2px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #828C94;
+}
+
+div.main form button#join-btn {
+    background-color: #35c5f0;
+    border-color: #35c5f0;
+    color: #fff;
+}
+
+p.login {
+    color: #424242;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+p.login a {
+    text-decoration: underline;
+    font-weight: bold;
+    display: inline-block;
+    padding-left: 10px;
+    color: inherit;
+}

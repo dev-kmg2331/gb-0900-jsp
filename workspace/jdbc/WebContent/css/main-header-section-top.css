@@ -1,0 +1,255 @@
+body {
+    line-height: 1;
+    margin: 0;
+}
+
+div,
+fieldset,
+form,
+h1,
+h2,
+input,
+legend,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* @media (min-width: 768px) {
+    section.section-top {
+        height: 80px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+} */
+
+/* @media (min-width: 1024px) {
+    section.section-top {
+        padding: 0 60px;
+    }
+} */
+
+/* @media (min-width: 1256px) {
+    section.section-top main{
+        width: 1256px;
+        margin: 0 auto;
+        padding: 0 60px;
+    }
+} */
+
+div.section-container{
+    border-bottom: 1px solid #EAEDEF;
+}
+
+section {
+    margin: 0;
+    padding: 0;
+}
+
+section.section-top {
+    max-width: 1256px;
+    background: #FFFFFF;
+    padding: 10px 60px;
+    margin: 0 auto;
+}
+
+section.section-top main {
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+}
+
+div.logo {
+    margin-right: 35px;
+}
+
+div.logo a {
+    display: inline-flex;
+    align-items: center;
+    margin: -4px;
+    padding: 4px;
+    font-size: 0;
+    line-height: 0;
+    color: #212629;
+    outline: none;
+}
+
+nav.page-nav {
+    flex: 1 1 0;
+    min-width: 313px;
+}
+
+nav.page-nav a {
+    border: none;
+    background: none;
+    font: inherit;
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 21px 5px 15px;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: bold;
+    color: #2F3438;
+    outline: none;
+}
+
+#search-bar {
+    margin-right: 14px;
+}
+
+div.search-container {
+    display: inline-flex;
+    align-items: center;
+    line-height: 0;
+    box-sizing: border-box;
+    border: 1px solid #DADDE0;
+    border-radius: 4px;
+    height: 40px;
+    padding: 0 14px;
+    width: 100%;
+    background-color: #F7F9FA;
+}
+
+div.search-container span:nth-child(1) {
+    display: inline-block;
+    font-size: 24px;
+    line-height: 1;
+    vertical-align: middle;
+    padding-right: 6px;
+    color: #828C94;
+}
+
+div.search-container span:nth-child(1)::before {
+    font-family: OhouseIcon;
+    vertical-align: top;
+    content: "\ea4d";
+}
+
+input.search {
+    box-sizing: border-box;
+    flex: 1 0 0%;
+    vertical-align: middle;
+    outline: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font: inherit;
+    height: 100%;
+    color: #2F3438;
+    outline: none;
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 6px;
+}
+
+input.search::placeholder {
+    color: #C2C8CC;
+}
+
+a.shop-icon {
+    position: relative;
+    display: inline-block;
+    padding: 6px;
+    margin: 3px 1px;
+    color: #2F3438;
+    line-height: 0;
+    outline: none;
+}
+
+a.shop-icon span {
+    display: inline-block;
+    font-size: 24px;
+    line-height: 1;
+    font-size: 24px;
+}
+
+a.shop-icon span::before {
+    font-family: OhouseIcon;
+    vertical-align: top;
+    content: "\e94e";
+}
+
+div.user-menu {
+    display: flex;
+    align-items: center;
+}
+
+div.menus {
+    display: flex;
+    margin: 0 10px 0 8px;
+    min-width: 205px;
+}
+
+div.menus a {
+    font-size: 14px;
+    line-height: 18px;
+    color: #2F3438;
+    padding: 0 10px;
+    border-left: 1px solid #EAEDEF;
+}
+
+div.menus a:first-of-type {
+    border-left: none;
+}
+
+span.board button {
+    margin: 0;
+    border: none;
+    background: none;
+    font: inherit;
+    font-size: 14px;
+    line-height: 18px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 95px;    
+    height: 40px;
+    border-radius: 4px;
+    padding: 0 16px;
+    font-weight: 400;
+    box-sizing: border-box;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #35C5F0;
+    outline: none;
+    overflow: hidden;
+}
+
+span.board button span:nth-child(1) {
+    margin-right: 6px;
+    font: inherit;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+span.board button span:nth-child(2) {
+    font-size: 18px;
+    line-height: 1;
+    vertical-align: middle;
+}
+
+span.board button span:nth-child(2)::before {
+    content: "\e961";
+    font-family: OhouseIcon;
+    vertical-align: top;
+}
+
+
+
